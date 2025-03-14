@@ -1,0 +1,110 @@
+.container {
+  padding: 20px;
+}
+
+.select {
+  padding: 5px;
+  margin: 10px 5px;
+  min-width: 50%;
+}
+
+.button {
+  margin: 15px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-edit {
+  background: #f4f4f4 !important;
+  color: black !important;
+}
+
+.button-copy {
+  background: #008cba !important;
+  color: white !important;
+}
+
+.button-save {
+  background: #27ae60 !important;
+  color: white !important;
+}
+
+.button-cancel {
+  background: #bdc3c7 !important;
+}
+
+.button-add {
+  background: #f39c12 !important;
+  color: white !important;
+}
+
+.button-delete {
+  background: #e74c3c !important;
+  color: white !important;
+}
+
+.button-popup-no {
+  background: #e74c3c !important;
+  color: white !important;
+}
+
+.button-popup-yes {
+  background: #2c3e50;
+  color: white;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.input-edit-mode {
+  min-width: 30%;
+}
+
+/* RulesTable Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.input {
+  min-width: 30%;
+}
+
+.button-action-edit {
+  background: #3498db;
+  color: white;
+}
+
+.table tr[draggable="true"] {
+  cursor: grab;
+}
